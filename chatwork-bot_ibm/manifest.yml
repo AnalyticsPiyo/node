@@ -1,0 +1,5 @@
+---
+applications:
+ - name: chatwork-bot
+   random-route: true
+   memory: 64M
