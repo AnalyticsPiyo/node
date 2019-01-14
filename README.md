@@ -6,4 +6,6 @@ chatwork のbot
 IBM bluemix
 - memo<br>
 発信内容、発信者によって返答に内容を変えれる。<br>
-実際には内容によって自動転送まで行っていた。
+実際には内容によって自動転送まで行っていた。<br>
+node_modules がないのでinstallする必要がある。
+
