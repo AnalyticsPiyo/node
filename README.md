@@ -1,7 +1,7 @@
 # node app の簡易template一覧
 ## chatbot_microsoft_luis
 - descroption<br>
-microsfot製のchatbot
+microsoft製のchatbot
 - environment<br>
 Azure、LUIS
 - memo<br>
@@ -15,6 +15,29 @@ IBM bluemix
 - memo<br>
 発信内容、発信者によって返答に内容を変えれる。<br>
 実際には内容によって自動転送まで行っていた。<br>
+node_modules がないのでinstallする必要がある。<br>
+## demo-api_ibm
+- descroption<br>
+test用にapiサーバーを構築
+- environment<br>
+IBM bluemix、express
+- memo<br>
+requestを投げると何かを返してくれる<br>
+node_modules がないのでinstallする必要がある。<br>
+## googlehome_firebase
+- descroption<br>
+googlehome app
+- environment<br>
+firebase、express
+- memo<br>
+versionが古くて動かない可能性がある。<br>
+node_modules がないのでinstallする必要がある。<br>
+## googlehome_otherhost
+- descroption<br>
+googlehome app
+- environment<br>
+otherhost、express
+- memo<br>
 node_modules がないのでinstallする必要がある。<br>
 ## googlehome_ibm
 - descroption<br>
@@ -34,13 +57,14 @@ IBM bluemix、express、line、IBM watson、cloudera
 DBに画像データの格納など結構色々やっている<br>
 セッションのつなげ方がわからず、会話フローになっていない<br>
 node_modules がないのでinstallする必要がある。<br>
-## demo-api_ibm
+## slack-bot_ibm
 - descroption<br>
-test用にapiサーバーを構築
+slack用チャットボット
 - environment<br>
-IBM bluemix、express
+IBM bluemix、express、slack、IBM watson
 - memo<br>
-requestを投げると何かを返してくれる<br>
+もしかしたら動かないかも<br>
+セッションのつなげ方がわからず、会話フローになっていない<br>
 node_modules がないのでinstallする必要がある。<br>
 
 
