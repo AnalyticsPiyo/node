@@ -3,7 +3,7 @@
 - descroption<br>
 microsoft製のchatbot
 - environment<br>
-Azure、LUIS
+Azure、LUIS、express
 - memo<br>
 verが古くて現状は動かないかも<br>
 node_modules がないのでinstallする必要がある。<br>
@@ -11,7 +11,7 @@ node_modules がないのでinstallする必要がある。<br>
 - descroption<br>
 chatwork のbot
 - environment<br>
-IBM bluemix
+IBM bluemix、chatwork、express
 - memo<br>
 発信内容、発信者によって返答に内容を変えれる。<br>
 実際には内容によって自動転送まで行っていた。<br>
