@@ -1,0 +1,20 @@
+{
+  "name": "api-test",
+  "main": "server.js",
+  "description": "api test",
+  "version": "0.1.1",
+  "private": false,
+  "engines": {
+    "node": "6.*"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.17.x",
+    "express": "^4.15.x",
+    "request": "^2.79.0"
+  },
+  "author": "hideyuki takase",
+  "license": "Apache-2.0"
+}

@@ -1,0 +1,14 @@
+{
+  "hosting": {
+    "public": "functions",
+    "rewrites": [{
+      "source": "**",
+      "function": "sillyNameMaker"
+    }],
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}

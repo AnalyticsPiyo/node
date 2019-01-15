@@ -1,0 +1,34 @@
+{
+  "name": "googlehome_app",
+  "main": "server.js",
+  "description": "googlehome app",
+  "version": "0.1.1",
+  "private": false,
+  "engines": {
+    "node": "6.*"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/IBM-Bluemix/get-started-node"
+  },
+  "dependencies": {
+    "actions-on-google": "^2.2.0",
+    "body-parser": "^1.17.x",
+    "cfenv": "^1.0.x",
+    "cloudant": "1.9.x",
+    "csv-parse": "^2.5.0",
+    "dialogflow": "^0.1.0",
+    "dialogflow-fulfillment": "^0.3.0-beta.3",
+    "dotenv": "^4.0.0",
+    "es6-map": "^0.1.4",
+    "express": "^4.15.x",
+    "prettyjson": "^1.2.1",
+    "request": "^2.79.0",
+    "underscore.string": "^3.3.4"
+  },
+  "author": "hideyuki takase",
+  "license": "Apache-2.0"
+}
